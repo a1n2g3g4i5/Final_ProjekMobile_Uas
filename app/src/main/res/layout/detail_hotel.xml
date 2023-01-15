@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.detail_hotel">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="320dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/teluk"
+        tools:layout_editor_absoluteX="-2dp" />
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="365dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="220dp"
+        android:justificationMode="inter_word"
+        android:text="Beberapa tahun terakhir ini, Sumatera Barat memang sudah menjadi tempat wisata yang sering sekali dikunjungi para wisatawan, baik itu wisatawan lokal, atau bahkan wisatawan mancanegara, dan bahkan banyak dari mereka yang rela untuk berkunjung hanya untuk melihat keindahan alam tempat wisata di Sumatera Barat. "
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="120dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="4dp"
+        android:text="Booking"
+        app:cornerRadius="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <RelativeLayout
+        android:layout_width="366dp"
+        android:layout_height="133dp"
+        android:layout_marginBottom="344dp"
+        android:background="@drawable/shape_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/ls_judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginTop="24dp"
+            android:text="Judul"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/ls_lokasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="86dp"
+            android:layout_marginEnd="45dp"
+            android:text="lokasi"
+            android:textSize="15dp"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/ls_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="34dp"
+            android:layout_marginBottom="26dp"
+            android:text="Rating"
+            android:textColor="#FBC02D"
+            android:textSize="20dp"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="36dp"
+        android:text="See All"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:drawableTint="@color/utama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="113dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/detail2" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="113dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/detail3" />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="113dp"
+        android:layout_height="102dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:srcCompat="@drawable/detail4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
